@@ -5,13 +5,14 @@ html,body,div,section,a,ul,li {
 }
 a {
   text-decoration: none;
+  color: black;
 }
 li {
   list-style: none;
 }
 
 header {
-  margin: 10px 10px;
+  margin: 10px 20px;
 }
 
 section {
@@ -41,6 +42,7 @@ margin: 50px 20px;
 .button:hover {
   opacity: 0.5;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .button p {
@@ -75,9 +77,19 @@ margin: 50px 20px;
   border-radius: 10px;
   color: white;
   text-align: center;
+  cursor: pointer;
+}
+
+#diary ul li:hover {
+  opacity: 0.7;
+}
+
+.more:hover {
+  opacity: 0.7;
+  transition: 0.3s;
 }
 
 /*footer*/
 footer {
-  margin: 10px 10px;
+  margin: 10px 20px;
 }
